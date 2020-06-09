@@ -31,7 +31,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/opensource-demo-orangeh
 
 WebUI.click(findTestObject('Object Repository/opensource-demo-orangehrm/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/opensource-demo-orangehrm/Page_OrangeHRM/b_Dashboard'), 5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/opensource-demo-orangehrm/Page_OrangeHRM/b_Dashboard'), 10)
 
 WebUI.click(findTestObject('Object Repository/opensource-demo-orangehrm/Page_OrangeHRM/a_Welcome Admin'))
 
